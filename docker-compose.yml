@@ -13,6 +13,7 @@ services:
       - mongodb
     environment:
       MONGO_HOST: mongodb
+      RABBITMQ_HOST: rabbitmq
     networks:
       - sanic_net
   
@@ -28,6 +29,7 @@ services:
       - mongodb
     environment:
       MONGO_HOST: mongodb
+      RABBITMQ_HOST: rabbitmq
     networks:
       - sanic_net
 
