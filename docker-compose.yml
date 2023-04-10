@@ -11,6 +11,8 @@ services:
     depends_on:
       - rabbitmq
       - mongodb
+    environment:
+      MONGO_HOST: mongodb
     networks:
       - sanic_net
   
@@ -24,6 +26,8 @@ services:
     depends_on:
       - rabbitmq
       - mongodb
+    environment:
+      MONGO_HOST: mongodb
     networks:
       - sanic_net
 
