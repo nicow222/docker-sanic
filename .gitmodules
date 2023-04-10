@@ -1,0 +1,6 @@
+[submodule "api_sanic"]
+	path = api_sanic
+	url = https://github.com/nicow222/sanic-prueba.git
+[submodule "consumer_sanic"]
+	path = consumer_sanic
+	url = https://github.com/nicow222/sanic-prueba-producer.git

@@ -1,0 +1,15 @@
+# Elastic Beanstalk Files
+
+.elasticbeanstalk/*
+
+.git
+
+.gitignore
+
+.gitmodules
+
+netlify.toml
+
+Procfile
+
+.gitlab-ci.yml
